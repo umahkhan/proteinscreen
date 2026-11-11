@@ -6,11 +6,7 @@ review ranked compounds and inspect the real docked poses (3Dmol, Mol*, or PyMOL
 
 ## Demo
 
-
-
-
-
-The full walkthrough is at [`docs/tutorial/pscreen_demo.mp4`](docs/tutorial/pscreen_demo.mp4) (opens in GitHub's video player).
+https://github.com/user-attachments/assets/edfe84e6-b0dd-4af5-80c8-337cb9dba98b
 
 Docking scores are computational predictions. They do not establish binding, covalent engagement, potency or selectivity.
 A warhead match is a chemical annotation, not proof of reactivity.
