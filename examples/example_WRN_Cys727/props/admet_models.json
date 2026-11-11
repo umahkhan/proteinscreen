@@ -1,0 +1,84 @@
+{
+ "model": "ADMET-AI (Chemprop-RDKit D-MPNN ensemble, 5 models/endpoint)",
+ "version": "2.0.1 chemprop 2.3.1",
+ "limitations": "Trained on public TDC datasets (see ADMET-AI paper, Bioinformatics 2024); applicability domain is drug-like small molecules. Does not predict target binding, covalent reactivity, potency or selectivity. Classification outputs are probabilities, not calibrated risk. Overlap between TDC training data and your compounds is not checked.",
+ "license": "MIT (admet-ai, chemprop)",
+ "endpoints": {
+  "Solubility_AqSolDB": {
+   "name": "Aqueous Solubility",
+   "task": "regression",
+   "units": "log(mol/L)",
+   "train_set_size_TDC": 9980,
+   "heldout_test_metric": {
+    "R2": 0.817,
+    "MAE": 0.692
+   }
+  },
+  "Lipophilicity_AstraZeneca": {
+   "name": "Lipophilicity",
+   "task": "regression",
+   "units": "log-ratio",
+   "train_set_size_TDC": 4200,
+   "heldout_test_metric": {
+    "R2": 0.771,
+    "MAE": 0.407
+   }
+  },
+  "Caco2_Wang": {
+   "name": "Cell Effective Permeability",
+   "task": "regression",
+   "units": "log(10^-6 cm/s)",
+   "train_set_size_TDC": 906,
+   "heldout_test_metric": {
+    "R2": 0.707,
+    "MAE": 0.311
+   }
+  },
+  "PPBR_AZ": {
+   "name": "Plasma Protein Binding Rate",
+   "task": "regression",
+   "units": "%",
+   "train_set_size_TDC": 1614,
+   "heldout_test_metric": {
+    "R2": 0.589,
+    "MAE": 6.852
+   }
+  },
+  "hERG": {
+   "name": "hERG Blocking",
+   "task": "classification",
+   "units": "probability (0-1)",
+   "train_set_size_TDC": 648,
+   "heldout_test_metric": {
+    "AUROC": 0.839
+   }
+  },
+  "AMES": {
+   "name": "Mutagenicity",
+   "task": "classification",
+   "units": "probability (0-1)",
+   "train_set_size_TDC": 7255,
+   "heldout_test_metric": {
+    "AUROC": 0.882
+   }
+  },
+  "DILI": {
+   "name": "Drug Induced Liver Injury",
+   "task": "classification",
+   "units": "probability (0-1)",
+   "train_set_size_TDC": 475,
+   "heldout_test_metric": {
+    "AUROC": 0.881
+   }
+  },
+  "CYP3A4_Veith": {
+   "name": "CYP3A4 Inhibition",
+   "task": "classification",
+   "units": "probability (0-1)",
+   "train_set_size_TDC": 12328,
+   "heldout_test_metric": {
+    "AUROC": 0.912
+   }
+  }
+ }
+}

@@ -1,0 +1,4 @@
+ligand_key,smiles
+VVD-133214,CC(F)(F)c1ncc(C(=O)N[C@H](/C=C/S(C)(=O)=O)C2CC2)c(Oc2ccccc2)n1
+VVD-133214_saturated_control,CC(F)(F)c1ncc(C(=O)N[C@H](CCS(C)(=O)=O)C2CC2)c(Oc2ccccc2)n1
+VVD-133214_R_epimer,CC(F)(F)c1ncc(C(=O)N[C@@H](/C=C/S(C)(=O)=O)C2CC2)c(Oc2ccccc2)n1

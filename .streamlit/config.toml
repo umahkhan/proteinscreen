@@ -1,0 +1,21 @@
+[theme]
+primaryColor = "#2a78d6"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f6f6f4"
+textColor = "#1b1b1a"
+font = "PsFont"
+
+[[theme.fontFaces]]
+family = "PsFont"
+url = "app/static/ps-semibold.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "PsFont"
+url = "app/static/ps-bold.woff2"
+weight = 700
+
+[server]
+enableStaticServing = true
+headless = true
+address = "127.0.0.1"

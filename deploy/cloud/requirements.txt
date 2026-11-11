@@ -1,0 +1,8 @@
+streamlit>=1.40
+rdkit
+pandas
+numpy
+scipy
+biopython
+openpyxl
+lacuna-pockets

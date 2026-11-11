@@ -1,0 +1,5 @@
+id,smiles
+biotin,OC(=O)CCCC[C@H]1SC[C@@H]2NC(=O)N[C@H]12
+desthiobiotin,C[C@@H]1NC(=O)N[C@@H]1CCCCCC(=O)O
+phenol_decoy,Oc1ccccc1
+not_a_smiles,xyz(

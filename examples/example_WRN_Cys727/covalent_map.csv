@@ -1,0 +1,3 @@
+cov_key,ligand_key,compound_id,warhead,attach_idx,adduct_smiles,adduct_sdf,gnina_smarts,typical_residues,residue
+VVD-133214__cov0,VVD-133214,VVD-133214,vinyl_sulfone_or_sulfonamide,12,CC(F)(F)c1ncc(C(=O)N[C@H](CCS(C)(=O)=O)C2CC2)c(Oc2ccccc2)n1,runs/WRN_Cys727_cryptic_covalent/ligands_cov/VVD-133214__cov0.sdf,[$([#6](~[#6])(~[#6]))],"Cys,Lys",A:CYS727
+VVD-133214_R_epimer__cov0,VVD-133214_R_epimer,VVD-133214_R_epimer,vinyl_sulfone_or_sulfonamide,12,CC(F)(F)c1ncc(C(=O)N[C@@H](CCS(C)(=O)=O)C2CC2)c(Oc2ccccc2)n1,runs/WRN_Cys727_cryptic_covalent/ligands_cov/VVD-133214_R_epimer__cov0.sdf,[$([#6](~[#6])(~[#6]))],"Cys,Lys",A:CYS727

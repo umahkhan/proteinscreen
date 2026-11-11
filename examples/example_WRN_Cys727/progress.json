@@ -1,0 +1,84 @@
+{
+ "state": "finished",
+ "started": 1792720942.108435,
+ "plan": [
+  "inputs",
+  "prepare",
+  "pockets",
+  "pocket:pocketminer",
+  "pocket:lacuna",
+  "docking",
+  "covalent_docking",
+  "properties",
+  "results"
+ ],
+ "stages": {
+  "inputs": {
+   "start": 1792720942.1085088,
+   "status": "done",
+   "message": "validating receptor and library",
+   "end": 1792720943.921769
+  },
+  "prepare": {
+   "start": 1792720943.921769,
+   "status": "done",
+   "message": "library: {'total': 3, 'ok': 3, 'with_warhead': 2}",
+   "done": 3,
+   "total": 3,
+   "end": 1792720944.139591
+  },
+  "pockets": {
+   "start": 1792720944.139591,
+   "status": "done",
+   "message": "defining pockets",
+   "end": 1792720944.2477
+  },
+  "pocket:pocketminer": {
+   "start": 1792720944.2477,
+   "status": "done",
+   "message": "ok (1 pockets)",
+   "done": 1,
+   "total": 1,
+   "end": 1792720947.776781
+  },
+  "pocket:lacuna": {
+   "start": 1792720947.776781,
+   "status": "done",
+   "message": "ok (3 pockets)",
+   "done": 1,
+   "total": 1,
+   "end": 1792720951.425995
+  },
+  "docking": {
+   "start": 1792720951.425995,
+   "status": "done",
+   "done": 12,
+   "total": 12,
+   "message": "VVD-133214_R_epimer: done",
+   "end": 1792721901.081125
+  },
+  "covalent_docking": {
+   "start": 1792721901.081125,
+   "status": "done",
+   "message": "VVD-133214_R_epimer: done",
+   "done": 4,
+   "total": 4,
+   "end": 1792728989.759798
+  },
+  "properties": {
+   "start": 1792728989.759798,
+   "status": "done",
+   "message": "ADMET-AI predictions",
+   "end": 1792728998.3110652
+  },
+  "results": {
+   "start": 1792728998.3110652,
+   "status": "done",
+   "message": "finished",
+   "end": 1792728998.647694
+  }
+ },
+ "current": "results",
+ "updated": "2026-10-22 21:16:38",
+ "ended": 1792728998.647694
+}

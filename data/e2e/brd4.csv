@@ -1,0 +1,5 @@
+id,smiles
+JQ1,CC1=C(SC2=C1C(=N[C@H](C3=NN=C(N32)C)CC(=O)OC(C)(C)C)C4=CC=C(C=C4)Cl)C
+dimethylisoxazole,Cc1noc(C)c1
+JQ1_duplicate,CC1=C(SC2=C1C(=N[C@H](C3=NN=C(N32)C)CC(=O)OC(C)(C)C)C4=CC=C(C=C4)Cl)C
+glucose_decoy,OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O

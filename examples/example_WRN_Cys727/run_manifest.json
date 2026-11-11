@@ -1,0 +1,163 @@
+{
+ "pscreen": "0.1.0",
+ "python": "3.13.5",
+ "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+ "started": "2026-10-22 19:02:22",
+ "receptor_sha256_16": "5f9dc64db41cbbf2",
+ "library_sha256_16": "402db6589860b3a4",
+ "receptor_info": {
+  "n_chains": 1,
+  "n_residues": 386,
+  "n_hetero_residues_removed": 1
+ },
+ "gnina": "gnina v1.3.3 master:6fe1ce2   Built Jun 30 2026.",
+ "config": {
+  "name": "WRN \u00b7 Cys727 \u00b7 cryptic + covalent",
+  "receptor": "@RUN@/uploads/9S1A_chainA_apo.pdb",
+  "library": "@RUN@/uploads/wrn_lib_vvd3.csv",
+  "target_residue": "A:CYS727",
+  "target_residues": [],
+  "known_ligand": "",
+  "box_center": [],
+  "box_size": [
+   22.0,
+   22.0,
+   22.0
+  ],
+  "predict_pockets": true,
+  "predictors": [
+   "pocketminer",
+   "lacuna"
+  ],
+  "max_pockets_per_tool": 3,
+  "pocketminer_threshold": 0.5,
+  "box_padding": 6.0,
+  "exhaustiveness": 8,
+  "num_modes": 5,
+  "cpu_per_job": 4,
+  "workers": 1,
+  "timeout_s": 1800,
+  "seed": 0,
+  "cnn_scoring": "rescore",
+  "covalent": true,
+  "covalent_max_center_A": 17.0,
+  "chemprop": true,
+  "chemprop_endpoints": [
+   "Solubility_AqSolDB",
+   "Lipophilicity_AstraZeneca",
+   "Caco2_Wang",
+   "PPBR_AZ",
+   "hERG",
+   "AMES",
+   "DILI",
+   "CYP3A4_Veith"
+  ],
+  "experimental_csv": ""
+ },
+ "library_summary": {
+  "total": 3,
+  "ok": 3,
+  "with_warhead": 2
+ },
+ "pocket_tools": {
+  "pocketminer": "ok (1 pockets)",
+  "lacuna": "ok (3 pockets)"
+ },
+ "chemprop": {
+  "model": "ADMET-AI (Chemprop-RDKit D-MPNN ensemble, 5 models/endpoint)",
+  "version": "2.0.1 chemprop 2.3.1",
+  "limitations": "Trained on public TDC datasets (see ADMET-AI paper, Bioinformatics 2024); applicability domain is drug-like small molecules. Does not predict target binding, covalent reactivity, potency or selectivity. Classification outputs are probabilities, not calibrated risk. Overlap between TDC training data and your compounds is not checked.",
+  "license": "MIT (admet-ai, chemprop)",
+  "endpoints": {
+   "Solubility_AqSolDB": {
+    "name": "Aqueous Solubility",
+    "task": "regression",
+    "units": "log(mol/L)",
+    "train_set_size_TDC": 9980,
+    "heldout_test_metric": {
+     "R2": 0.817,
+     "MAE": 0.692
+    }
+   },
+   "Lipophilicity_AstraZeneca": {
+    "name": "Lipophilicity",
+    "task": "regression",
+    "units": "log-ratio",
+    "train_set_size_TDC": 4200,
+    "heldout_test_metric": {
+     "R2": 0.771,
+     "MAE": 0.407
+    }
+   },
+   "Caco2_Wang": {
+    "name": "Cell Effective Permeability",
+    "task": "regression",
+    "units": "log(10^-6 cm/s)",
+    "train_set_size_TDC": 906,
+    "heldout_test_metric": {
+     "R2": 0.707,
+     "MAE": 0.311
+    }
+   },
+   "PPBR_AZ": {
+    "name": "Plasma Protein Binding Rate",
+    "task": "regression",
+    "units": "%",
+    "train_set_size_TDC": 1614,
+    "heldout_test_metric": {
+     "R2": 0.589,
+     "MAE": 6.852
+    }
+   },
+   "hERG": {
+    "name": "hERG Blocking",
+    "task": "classification",
+    "units": "probability (0-1)",
+    "train_set_size_TDC": 648,
+    "heldout_test_metric": {
+     "AUROC": 0.839
+    }
+   },
+   "AMES": {
+    "name": "Mutagenicity",
+    "task": "classification",
+    "units": "probability (0-1)",
+    "train_set_size_TDC": 7255,
+    "heldout_test_metric": {
+     "AUROC": 0.882
+    }
+   },
+   "DILI": {
+    "name": "Drug Induced Liver Injury",
+    "task": "classification",
+    "units": "probability (0-1)",
+    "train_set_size_TDC": 475,
+    "heldout_test_metric": {
+     "AUROC": 0.881
+    }
+   },
+   "CYP3A4_Veith": {
+    "name": "CYP3A4 Inhibition",
+    "task": "classification",
+    "units": "probability (0-1)",
+    "train_set_size_TDC": 12328,
+    "heldout_test_metric": {
+     "AUROC": 0.912
+    }
+   }
+  }
+ },
+ "jobs": [
+  {
+   "mode": "covalent",
+   "status": "done",
+   "n": 4
+  },
+  {
+   "mode": "noncovalent",
+   "status": "done",
+   "n": 12
+  }
+ ],
+ "finished": "2026-10-22 21:16:38"
+}

@@ -1,0 +1,4 @@
+id,smiles
+UCHL3_chloroacetamide_A1DFD,c1ccnc(c1)NC(=O)c2cccc(c2)NC(=O)CCl
+UCHL3_chloroacetamide_A1DFE,COc1cccc(c1)NC(=O)c2cccc(c2)NC(=O)CCl
+UCHL3_acetamide_control,c1ccnc(c1)NC(=O)c2cccc(c2)NC(=O)C

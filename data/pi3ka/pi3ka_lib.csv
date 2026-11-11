@@ -1,0 +1,4 @@
+id,smiles
+BBO-10203,C[C@@H]1C2=CC(=NN2CCN1C(=O)C=C)C3=C(C4=C(C=CS4)C(=N3)C5=CC6=C(C=C5)N(N=C6)C)C7=C(C=C(C=C7F)F)OCCOC
+BBO-10203_saturated_control,C[C@@H]1C2=CC(=NN2CCN1C(=O)CC)C3=C(C4=C(C=CS4)C(=N3)C5=CC6=C(C=C5)N(N=C6)C)C7=C(C=C(C=C7F)F)OCCOC
+VVD-442_reconstructed,C[C@H](C=CS(=O)(=O)C)NC(=O)C1(F)CCN(CC1)S(=O)(=O)c2ccc(Br)cc2-c3ccccc3Cl

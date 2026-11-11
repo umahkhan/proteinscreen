@@ -1,0 +1,5 @@
+id,smiles
+benzene,c1ccccc1
+toluene,Cc1ccccc1
+indole,c1ccc2[nH]ccc2c1
+glycine_decoy,NCC(=O)O

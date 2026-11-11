@@ -1,0 +1,3 @@
+id,smiles
+VVD-130037,C=CC(=O)N1CCOC[C@H]1c1cc(Cl)cc(c1)-c1nccc(N)n1
+VVD-130037_saturated_control,CCC(=O)N1CCOC[C@H]1c1cc(Cl)cc(c1)-c1nccc(N)n1

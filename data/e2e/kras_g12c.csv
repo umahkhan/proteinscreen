@@ -1,0 +1,4 @@
+id,smiles
+acryloyl_phenylpiperazine,C=CC(=O)N1CCN(CC1)c1ccccc1
+chloroacetyl_phenylpiperazine,ClCC(=O)N1CCN(CC1)c1ccccc1
+propanoyl_control,CCC(=O)N1CCN(CC1)c1ccccc1

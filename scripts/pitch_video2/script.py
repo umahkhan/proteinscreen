@@ -1,0 +1,12 @@
+"""Narration for the WRN Cys727 pitch (live-app version). Numbers are spelled out; pron.LEX fixes term pronunciation."""
+SEGS = {
+ "intro": "Covalent drug discovery often begins with a cysteine you can reach. The trouble is that the structure you have is usually an apo structure, where the pocket a drug would need is closed. pscreen is a local application built for exactly that situation. Here we will use WRN helicase, and cysteine seven twenty-seven, the site that Vividion's covalent compounds target.",
+ "workflow": "You build the experiment as a simple workflow. Bring an apo structure and a compound library. Choose how to look for pockets: two independent prediction models, PocketMiner and Lacuna, that suggest where a hidden, cryptic pocket might open. Then tell the app which cysteine matters. Everything runs on your own machine.",
+ "runs": "The app then runs every step for you, with a live log and timings. Each compound is docked two ways: normally, and covalently, with a bond built to the cysteine. Covalent docking is the slow part on a laptop, so you can leave it running and come back to it later.",
+ "explore": "When the run finishes, you get an interactive three-dimensional view of the apo structure. Rotate it, zoom in, and look at the surface where the pockets were predicted.",
+ "pockets": "Each model gives its own view. PocketMiner is shown in green, and Lacuna in blue. Where they agree, the residues turn purple, which tells you where the evidence for a pocket is strongest.",
+ "conformers": "Lacuna also works across many conformations of the protein, so you can step through them and see in which ones a pocket opens, and in which ones it does not.",
+ "pose": "Now the covalent docking. Tick a compound in the table, and its pose appears in the pocket. The distance from the reactive atom to cysteine seven twenty-seven is reported right in the legend. For Vividion's compound, the app builds the bond to the cysteine, and checks that the geometry is sensible.",
+ "rank": "Compounds are ranked in separate covalent and non-covalent lanes, so the two are never mixed. You can also add predicted drug-likeness properties, such as solubility, to help you prioritize.",
+ "export": "Everything exports in one click: a ranked table, a report, and a PyMOL file, ready to share with your chemists. One word of caution. Pockets and docked poses are predictions. They help you decide which experiments to run first. They are not proof that a compound binds. pscreen: from an apo structure and one cysteine, to a reproducible shortlist.",
+}

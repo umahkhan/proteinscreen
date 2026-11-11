@@ -1,0 +1,45 @@
+{
+ "name": "WRN \u00b7 Cys727 \u00b7 cryptic + covalent",
+ "receptor": "@RUN@/uploads/9S1A_chainA_apo.pdb",
+ "library": "@RUN@/uploads/wrn_lib_vvd3.csv",
+ "target_residue": "A:CYS727",
+ "known_ligand": "",
+ "box_center": [],
+ "box_size": [
+  22.0,
+  22.0,
+  22.0
+ ],
+ "predict_pockets": true,
+ "predictors": [
+  "pocketminer",
+  "lacuna"
+ ],
+ "max_pockets_per_tool": 3,
+ "pocketminer_threshold": 0.5,
+ "box_padding": 6.0,
+ "exhaustiveness": 8,
+ "num_modes": 5,
+ "cpu_per_job": 4,
+ "workers": 1,
+ "timeout_s": 1800,
+ "seed": 0,
+ "cnn_scoring": "rescore",
+ "covalent": true,
+ "chemprop": true,
+ "chemprop_endpoints": [
+  "Solubility_AqSolDB",
+  "Lipophilicity_AstraZeneca",
+  "Caco2_Wang",
+  "PPBR_AZ",
+  "hERG",
+  "AMES",
+  "DILI",
+  "CYP3A4_Veith"
+ ],
+ "experimental_csv": "",
+ "covalent_max_center_A": 17.0,
+ "target_residues": [
+  "A:CYS727"
+ ]
+}

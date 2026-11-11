@@ -1,0 +1,8 @@
+<!doctype html><html><body style="margin:0"><script>
+const send=(t,d)=>window.parent.postMessage(Object.assign({isStreamlitMessage:true,type:t},d),"*");
+let last=0,t=null;
+function report(){const h=Math.round(window.parent.innerHeight/10)*10;if(Math.abs(h-last)>=30){last=h;send("streamlit:setComponentValue",{value:h,dataType:"json"})}}
+window.addEventListener("message",e=>{if(e.data&&e.data.type==="streamlit:render"){send("streamlit:setFrameHeight",{height:0});report()}});
+window.parent.addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(report,400)});
+send("streamlit:componentReady",{apiVersion:1});
+</script></body></html>

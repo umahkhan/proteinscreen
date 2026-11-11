@@ -1,0 +1,4 @@
+id,smiles
+benzamidine,NC(=N)c1ccccc1
+4-aminobenzamidine,NC(=N)c1ccc(N)cc1
+benzene_decoy,c1ccccc1

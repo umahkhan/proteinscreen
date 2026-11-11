@@ -1,0 +1,4 @@
+id,smiles
+acetazolamide,CC(=O)NC1=NN=C(S1)S(N)(=O)=O
+benzenesulfonamide,NS(=O)(=O)c1ccccc1
+ethanol_decoy,CCO

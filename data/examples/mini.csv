@@ -1,0 +1,10 @@
+id,smiles
+aspirin,CC(=O)Oc1ccccc1C(=O)O
+aspirin_dup,OC(=O)c1ccccc1OC(C)=O
+acrylamide_aniline,C=CC(=O)Nc1ccccc1
+chloroacetamide_1,ClCC(=O)Nc1ccc(C)cc1
+benzamide,NC(=O)c1ccccc1
+salt_case,CC(=O)Nc1ccc(O)cc1.[Na+].[Cl-]
+bad_valence,C(C)(C)(C)(C)C
+garbage,not_a_smiles
+empty,

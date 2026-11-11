@@ -1,0 +1,80 @@
+{
+ "nodes": [
+  {
+   "id": "n0",
+   "type": "protein",
+   "x": 20,
+   "y": 24,
+   "params": {}
+  },
+  {
+   "id": "n1",
+   "type": "library",
+   "x": 220,
+   "y": 24,
+   "params": {}
+  },
+  {
+   "id": "n2",
+   "type": "pocketminer",
+   "x": 420,
+   "y": 24,
+   "params": {
+    "threshold": 0.5,
+    "max_pockets": 3
+   }
+  },
+  {
+   "id": "n3",
+   "type": "lacuna",
+   "x": 620,
+   "y": 24,
+   "params": {}
+  },
+  {
+   "id": "n4",
+   "type": "target",
+   "x": 820,
+   "y": 24,
+   "params": {
+    "residues": "A:CYS727"
+   }
+  },
+  {
+   "id": "n5",
+   "type": "gnina",
+   "x": 1020,
+   "y": 24,
+   "params": {}
+  },
+  {
+   "id": "n6",
+   "type": "gnina_cov",
+   "x": 1220,
+   "y": 24,
+   "params": {}
+  },
+  {
+   "id": "n7",
+   "type": "warhead",
+   "x": 1420,
+   "y": 24,
+   "params": {}
+  },
+  {
+   "id": "n8",
+   "type": "admet",
+   "x": 1620,
+   "y": 24,
+   "params": {}
+  },
+  {
+   "id": "n9",
+   "type": "results",
+   "x": 1820,
+   "y": 24,
+   "params": {}
+  }
+ ],
+ "preset": "Covalent: cryptic pockets (PocketMiner + Lacuna) + ADMET"
+}
