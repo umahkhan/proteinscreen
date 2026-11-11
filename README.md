@@ -6,7 +6,9 @@ review ranked compounds and inspect the real docked poses (3Dmol, Mol*, or PyMOL
 
 ## Demo
 
-[![pscreen demo — click to watch](https://img.shields.io/badge/▶_Watch-the_demo_video-blue?style=for-the-badge)](docs/tutorial/pscreen_demo.mp4)
+
+
+
 
 The full walkthrough is at [`docs/tutorial/pscreen_demo.mp4`](docs/tutorial/pscreen_demo.mp4) (opens in GitHub's video player).
 
